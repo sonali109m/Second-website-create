@@ -108,9 +108,25 @@
 .rates span{
     color:gray;
 }
-.
+.header{
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.info{
+    box-sizing: border-box;
+    background-color: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.icon{
+    color: rgb(201, 201, 20);
+}
 
-/* profile */
+/*  common profile */
 .profile{
    display: flex;
    gap: 30px;
