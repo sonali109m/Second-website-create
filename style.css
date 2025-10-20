@@ -1,0 +1,125 @@
+* body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    
+    background-image:url(./images/Hero-bg.png);
+    height: 100dvh;
+    background-position: center;
+    background-size: cover;
+    font-size: 40px;
+}
+.header-div{
+    width: 1140px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-div p{
+    color: blue;
+    font-style: bolder;
+}
+.heading div button{
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    font-weight: bolder;
+}
+.div2 h1{
+    font-style: 30px;
+    color: black;
+}
+.div2{
+    padding: 20px;
+    margin: 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div2 h2{
+    text-align: center;
+}
+.section{
+     background-color: rgb(240, 244, 244);
+}
+.common-section{
+   width: 1140px;
+   padding: 20px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+.common-section div h3{
+    color: black;
+    font-size: 20px;
+}
+.para{
+    color: gray;
+    font-size: 20px;
+}
+.common-section div button{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    font-weight: bolder;
+}
+.preview{
+    display: inline-block;
+    text-align: start;
+    margin-top: 50px;
+   
+    
+}
+.common-section div img{
+    margin-top: 15px;
+    border-radius:30px 30px 30px 30px ;
+    width: 100%;
+    height: 300px;
+}
+/* second div */
+.productive{
+    padding: 15px;
+    margin: 10px auto;
+    background-color: #e5e4f0 ;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-div{
+    display: flex;
+    gap: 80px;
+    padding: 5px 10px;
+    
+}
+.rates p{
+    font-size: 30px;
+    text-align: center;
+}
+.rates span{
+    color:gray;
+}
+/* profile */
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.profile div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
