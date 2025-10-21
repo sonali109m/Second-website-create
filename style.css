@@ -225,11 +225,11 @@
     color: rgb(83, 79, 79);
     text-decoration: none;
 }
-/* .nav a:hover{
+.nav a:hover{
     width: 30px;
     background-color: rgb(45, 88, 229);
     text-decoration: none;
-} */
+}
 .footer-section{
     background-color: white;
 }
