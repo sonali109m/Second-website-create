@@ -6,7 +6,6 @@
 .heading{
     
     background-image:url(./images/Hero-bg.png);
-    height: 100dvh;
     background-position: center;
     background-size: cover;
     font-size: 40px;
@@ -149,8 +148,9 @@
 
 }
 .users{
-    width: 1140;
+    width: 1140px;
     padding: 50px;
+    margin: 0 auto;
     display: flex;
 }
 .mid-sec{
@@ -165,57 +165,47 @@
 .image{
     width: 750px;
 }
+
+
 .top-of{
     width: 1140px;
     padding: 15px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 30px;
-    gap: 400px;
-}
-.top-of h1{
-    color: black;
-    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 .form{
-    text-align: left;
+    display: block;
+    margin:15px 20px;
+    
 }
 #email{
-    height: 25px;
-    width: 300px;
-    padding-left: 10px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 5px;
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
 }
 #fullname{
-    height: 25px;
-    width: 300px;
-    padding-left: 10px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 5px;
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
 }
-#msg{
-    height: 80px;
-    width: 300px;
-    padding-left: 10px;
-    margin: 0 auto;
+.form-head{
+    font-weight: 60px;
+    font-size: 30px;
     text-align: center;
-    border-radius: 5px;
+    margin-top: 20px;
 }
 .button{
-    height: 40px;
-    width: 320px;
-    padding-left: 10px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
+    background-color: rgba(78, 71, 255, 1);
+    width: 400px;
+    padding: 12px 36px;
+    font-size: 16px;
+    border-radius: 10px;
 }
+
+
 .nav{
     display: flex;
     gap: 20px;
